@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Disallow: /staging/
-Sitemap: http://seanhalpin.io/content/sitemap/xmlsitemap.txt
