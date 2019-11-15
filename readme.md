@@ -1,4 +1,4 @@
-<h1>OptimizedHTML 5</h1>
+<h1>Text</h1>
 <p>Lightweight startup HTML5 template, based on Gulp.</p>
 
 <p>
