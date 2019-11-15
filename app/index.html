@@ -13,7 +13,10 @@
 	<link rel="icon" href="img/favicon.png">
 	<meta property="og:image" content="img/@1x/preview.jpg">
 	
-	<link rel="stylesheet" href="css/styles.min.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/style12.css" />
 
 </head>
 
@@ -32,14 +35,34 @@
 		</div>
 		<br>
 		<h2>Welcome to Zanna</h2>
-		<p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. <em>Ad distinctio animi</em>, dolorum eaque praesentium unde aliquid, mollitia itaque voluptate quos modi et incidunt tempora fugiat voluptatum quia esse dolor repellat.</p>
+		<p></p>
 		<br>
 		<div class="example-grid">
-			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis quo vero molestias, esse doloribus corrupti, nemo minus ullam tempore tenetur magni aut quos soluta sit adipisci eius expedita amet non.</div>
-			<div>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</div>
+			<div></div>
+			<div></div>
 		</div>
 
 	</div>
+
+  <div class="content">
+    <svg viewBox="0 0 600 300">
+
+        <!-- Symbol -->
+        <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="50%" dy=".35em">
+                Text
+            </text>
+        </symbol>
+
+        <!-- Duplicate symbols -->
+        <use xlink:href="#s-text" class="text"></use>
+        <use xlink:href="#s-text" class="text"></use>
+        <use xlink:href="#s-text" class="text"></use>
+        <use xlink:href="#s-text" class="text"></use>
+        <use xlink:href="#s-text" class="text"></use>
+
+    </svg>
+</div>
 
 	<script src="js/scripts.min.js"></script>
 
