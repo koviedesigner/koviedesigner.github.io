@@ -1,0 +1,4 @@
+type: CNAME
+host: www.koviedesigner.github.io
+answer: koviedesigner.github.io
+TTL: 300
